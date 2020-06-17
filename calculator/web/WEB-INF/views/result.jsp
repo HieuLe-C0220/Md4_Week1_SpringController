@@ -12,16 +12,20 @@
 </head>
 <body>
 <input type="text" name="sothu1" placeholder="số thứ nhất"/>
-<select name="operator">
-    <option value="+">+</option>
-    <option value="-">-</option>
-    <option value="*">*</option>
-    <option value="/">/</option>
-</select>
+<%--<select name="operator">--%>
+<%--    <option value="+">+</option>--%>
+<%--    <option value="-">-</option>--%>
+<%--    <option value="*">*</option>--%>
+<%--    <option value="/">/</option>--%>
+<%--</select>--%>
 <input type="text" name="sothu2" placeholder="số thứ hai"/>
 <br/>
 <br/>
-<button type="submit">Result</button>
+<%--<button type="submit">Result</button>--%>
+<button type="submit" formaction="/add">Addition(+)</button>
+<button type="submit" formaction="/sub">Subtraction(-)</button>
+<button type="submit" formaction="/mul">Multiplication(*)</button>
+<button type="submit" formaction="/div">Division(/)</button>
 <br/>
 <br/>
 ${mess}
